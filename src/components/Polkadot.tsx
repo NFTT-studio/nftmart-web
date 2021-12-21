@@ -1,4 +1,7 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
+import polkadotBannerWeb from "../assets/images/polkadotBannerWeb.png";
+import polkadotBanner from "../assets/images/polkadotBanner.png";
+import polkadot from "../assets/images/polkadot.png";
 
 const Polkadot = (props: any) => {
   const { isnarrow } = props;
@@ -22,7 +25,7 @@ const Polkadot = (props: any) => {
           >
             <Image
               width="100%"
-              src="/images/polkadotBannerWeb.png"
+              src={polkadotBannerWeb}
               objectFit="cover"
               zIndex={0}
             />
@@ -135,7 +138,7 @@ const Polkadot = (props: any) => {
             <Image
               width="100%"
               minHeight="660px"
-              src="/images/polkadotBanner.png"
+              src={polkadotBanner}
               objectFit="cover"
               zIndex={0}
             />
@@ -150,7 +153,7 @@ const Polkadot = (props: any) => {
             >
               <Image
                 height="120px"
-                src="/images/polkadot"
+                src={polkadot}
                 objectFit="cover"
                 zIndex={0}
               />

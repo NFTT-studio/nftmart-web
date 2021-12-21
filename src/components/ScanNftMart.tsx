@@ -1,4 +1,6 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
+import ScanBannerWeb from "../assets/images/ScanBannerWeb.png";
+import ScanBanner from "../assets/images/ScanBannerWeb.png";
 
 const ScanNftMart = (props: any) => {
   const { isnarrow } = props;
@@ -21,7 +23,7 @@ const ScanNftMart = (props: any) => {
           >
             <Image
               width="100%"
-              src="/images/ScanBannerWeb.png"
+              src={ScanBannerWeb}
               objectFit="cover"
               zIndex={0}
             />
@@ -107,7 +109,7 @@ const ScanNftMart = (props: any) => {
             <Image
               width="100%"
               minHeight="660px"
-              src="/images/ScanBanner.png"
+              src={ScanBanner}
               objectFit="cover"
               zIndex={0}
             />

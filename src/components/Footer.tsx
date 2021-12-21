@@ -5,6 +5,11 @@ import {
   Text,
   Image,
 } from '@chakra-ui/react';
+import github from "../assets/images/github.png";
+import Telegram from "../assets/images/Telegram.png";
+import twitter from "../assets/images/twitter.png";
+import Medium from "../assets/images/Medium.png";
+import logo from "../assets/images/logo.png";
 
 const emailUrl = `${process.env.MAIL}`;
 console.log(emailUrl, 'email url');
@@ -15,10 +20,16 @@ const links = [
   'https://twitter.com/NFTMartio/',
   'https://nftmart-io.medium.com/',
 ];
+const img = [
+  github,
+  Telegram,
+  twitter,
+  Medium,
+];
 
 const ICON_LIST = ICONS.map((title, index) => ({
-  src: `/images/${title}.png`,
-  hoverSrc: `/images/${title}.png`,
+  src: img[index],
+  hoverSrc: img[index],
   id: index,
   link: links[index],
 }));
@@ -115,7 +126,7 @@ export default function Footer(props: any) {
             justifyContent="space-between"
             p="0 2.5rem"
           >
-            <Image width="auto" height="1.9rem" src="/images/logo.png" />
+            <Image width="auto" height="1.9rem" src={logo} />
             <Flex
               width="37.12rem"
               flexDirection="column"

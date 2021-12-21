@@ -1,5 +1,19 @@
 import { useEffect, useState, useRef } from 'react';
 import { Box, Text, Flex, Link } from '@chakra-ui/react';
+import nft01 from "../assets/images/nft01.png";
+import nft02 from "../assets/images/nft02.png";
+import nft03 from "../assets/images/nft03.png";
+import nft04 from "../assets/images/nft04.png";
+import nft05 from "../assets/images/nft05.png";
+import nft06 from "../assets/images/nft06.png";
+import nft07 from "../assets/images/nft07.png";
+import nft08 from "../assets/images/nft08.png";
+import nft09 from "../assets/images/nft09.png";
+import nft10 from "../assets/images/nft10.png";
+import nft11 from "../assets/images/nft11.png";
+import nft12 from "../assets/images/nft12.png";
+import nft13 from "../assets/images/nft13.png";
+import nft14 from "../assets/images/nft14.png";
 
 // Hook
 export const useWindowSize = () => {
@@ -35,72 +49,72 @@ const Banner = (props: any) => {
   const nftImg = [
     {
       id: '1',
-      icon: '/images/nft01.png',
+      icon: nft01,
       url: "https://app.nftmart.io/collection/80-Higo's%20Artwork",
     },
     {
       id: '2',
-      icon: '/images/nft02.png',
+      icon: nft02,
       url: "https://app.nftmart.io/collection/81-Tracy's%20Portfolio",
     },
     {
       id: '3',
-      icon: '/images/nft03.png',
+      icon: nft03,
       url: 'https://app.nftmart.io/collection/60-hucongmisuan',
     },
     {
       id: '4',
-      icon: '/images/nft04.png',
+      icon: nft04,
       url: 'https://app.nftmart.io/collection/25-woto',
     },
     {
       id: '5',
-      icon: '/images/nft05.png',
+      icon: nft05,
       url: 'https://app.nftmart.io/collection/22-Paper%20Pulp',
     },
     {
       id: '6',
-      icon: '/images/nft06.png',
+      icon: nft06,
       url: 'https://app.nftmart.io/collection/11-Coding%20Series',
     },
     {
       id: '7',
-      icon: '/images/nft07.png',
+      icon: nft07,
       url: 'https://app.nftmart.io/collection/2-Vertigob',
     },
     {
       id: '8',
-      icon: '/images/nft08.png',
+      icon: nft08,
       url: 'https://app.nftmart.io/collection/50-LAIJU%20WARS%20CORPS',
     },
     {
       id: '9',
-      icon: '/images/nft09.png',
+      icon: nft09,
       url: 'https://app.nftmart.io/collection/13-Dream%20Series',
     },
     {
       id: '10',
-      icon: '/images/nft10.png',
+      icon: nft10,
       url: 'https://app.nftmart.io/collection/71-Beauty%20And%20The%20West%20Chamber',
     },
     {
       id: '11',
-      icon: '/images/nft11.png',
+      icon: nft11,
       url: 'https://app.nftmart.io/collection/18-Classical%20Core%20Socialist%20Values%20Collection',
     },
     {
       id: '12',
-      icon: '/images/nft12.png',
+      icon: nft12,
       url: 'https://app.nftmart.io/collection/49-Random%20style',
     },
     {
       id: '13',
-      icon: '/images/nft13.png',
+      icon: nft13,
       url: 'https://app.nftmart.io/items/2-0-WU%20World',
     },
     {
       id: '14',
-      icon: '/images/nft14.png',
+      icon: nft14,
       url: 'https://app.nftmart.io/collection/35-Oriental%20Style',
     },
   ];

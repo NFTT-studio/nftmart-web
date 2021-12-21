@@ -1,5 +1,7 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
 
+import applicationBanner from "../assets/images/applicationBanner.png";
+
 const Application = (props: any) => {
   const { isnarrow } = props;
   return (
@@ -23,7 +25,7 @@ const Application = (props: any) => {
             <Image
               width="100%"
               minHeight="330px"
-              src="/images/applicationBanner.png"
+              src={applicationBanner}
               objectFit="cover"
               zIndex={0}
             />
@@ -108,7 +110,7 @@ const Application = (props: any) => {
             <Image
               width="100%"
               minHeight="660px"
-              src="/images/applicationBanner.png"
+              src={applicationBanner}
               objectFit="cover"
               zIndex={0}
             />

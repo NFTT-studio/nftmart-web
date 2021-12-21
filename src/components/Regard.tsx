@@ -1,4 +1,6 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
+import regardBannerWeb from "../assets/images/regardBannerWeb.png";
+import regardBanner from "../assets/images/regardBanner.png";
 
 const Regard = (props: any) => {
   const { isnarrow } = props;
@@ -22,7 +24,7 @@ const Regard = (props: any) => {
           >
             <Image
               width="100%"
-              src="/images/regardBannerWeb.png"
+              src={regardBannerWeb}
               objectFit="cover"
               zIndex={0}
             />
@@ -94,7 +96,7 @@ const Regard = (props: any) => {
             <Image
               width="100%"
               minHeight="660px"
-              src="/images/regardBanner.png"
+              src={regardBanner}
               objectFit="cover"
               zIndex={0}
             />

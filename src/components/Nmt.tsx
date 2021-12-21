@@ -1,5 +1,9 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
 
+import nmtBannerWeb from "../assets/images/nmtBannerWeb.png";
+import nmt from "../assets/images/nmt.png";
+import nmtBanner from "../assets/images/nmtBanner.png";
+
 const Nmt = (props: any) => {
   const { isnarrow } = props;
   return (
@@ -21,7 +25,7 @@ const Nmt = (props: any) => {
           >
             <Image
               width="100%"
-              src="/images/nmtBannerWeb.png"
+              src={nmtBannerWeb}
               objectFit="cover"
               zIndex={0}
             />
@@ -36,7 +40,7 @@ const Nmt = (props: any) => {
             >
               <Image
                 height="30px"
-                src="/images/nmt.png"
+                src={nmt}
                 objectFit="cover"
                 zIndex={0}
               />
@@ -101,7 +105,7 @@ const Nmt = (props: any) => {
             <Image
               width="100%"
               minHeight="660px"
-              src="/images/nmtBanner.png"
+              src={nmtBanner}
               objectFit="cover"
               zIndex={0}
             />
@@ -116,7 +120,7 @@ const Nmt = (props: any) => {
             >
               <Image
                 height="60px"
-                src="/images/nmt.png"
+                src={nmt}
                 objectFit="cover"
                 zIndex={0}
               />

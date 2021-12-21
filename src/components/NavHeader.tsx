@@ -13,6 +13,8 @@ import {
 
 import { Z_INDEXES } from '../constants';
 import colors from '../themes/colors';
+import logo from "../assets/images/logo.png";
+import meau from "../assets/images/meau.png";
 
 // const titlelize = (word: string) => word[0].toUpperCase() + word.substring(1);
 
@@ -132,13 +134,13 @@ const NavHeader = (props: any) => {
             alignItems="center"
             boxSizing="border-box"
           >
-            <Image height="30px" width="114px" src="/images/logo.png" objectFit="contain" />
+            <Image height="30px" width="114px" src={logo} objectFit="contain" />
             <Flex justifyContent="flex-end">
               <Image
                 onClick={() => setOpening(true)}
                 height="20px"
                 width="20px"
-                src="/images/meau.png"
+                src={meau}
                 objectFit="contain"
               />
             </Flex>
@@ -220,7 +222,7 @@ const NavHeader = (props: any) => {
             justifyContent="space-between"
             alignItems="center"
           >
-            <Image height="40px" width="auto" src="/images/logo.png" objectFit="contain" />
+            <Image height="40px" width="auto" src={logo} objectFit="contain" />
             <NavLinks />
           </Flex>
         </Flex>
