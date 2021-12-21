@@ -1,12 +1,35 @@
 {
   "files": {
-    "main.js": "./static/js/main.c42ef52b.js",
+    "main.js": "./static/js/main.c5a358a3.js",
     "static/js/787.ba9ecbca.chunk.js": "./static/js/787.ba9ecbca.chunk.js",
+    "static/media/regardBanner.png": "./static/media/regardBanner.48c4296991851cd8032b.png",
+    "static/media/polkadotBanner.png": "./static/media/polkadotBanner.aa515625bc0988353007.png",
+    "static/media/nmtBanner.png": "./static/media/nmtBanner.1182bbf3a81c1b0e598a.png",
+    "static/media/applicationBanner.png": "./static/media/applicationBanner.91ef29040810cdcea160.png",
+    "static/media/polkadotBannerWeb.png": "./static/media/polkadotBannerWeb.bb66656bc95bdd35e229.png",
+    "static/media/regardBannerWeb.png": "./static/media/regardBannerWeb.f8ea79ef185205c76661.png",
+    "static/media/ScanBannerWeb.png": "./static/media/ScanBannerWeb.edde5c4dc38dc8f76d64.png",
+    "static/media/nmtBannerWeb.png": "./static/media/nmtBannerWeb.96fe5b29209a7f70c42b.png",
+    "static/media/nft01.png": "./static/media/nft01.96430e362979b5e69045.png",
+    "static/media/nft02.png": "./static/media/nft02.4f267a827e040e8ae7a7.png",
+    "static/media/nft03.png": "./static/media/nft03.4ac6a49dd2a24f8c1dec.png",
+    "static/media/nft11.png": "./static/media/nft11.21b03979b0c3c91d4236.png",
+    "static/media/nft10.png": "./static/media/nft10.3a3a3f70ae01b277bbd2.png",
+    "static/media/nft14.png": "./static/media/nft14.2355f648099940fb635d.png",
+    "static/media/nft09.png": "./static/media/nft09.cfc16d22362f0e8f3829.png",
+    "static/media/nft08.png": "./static/media/nft08.2320fea640212633a3c7.png",
+    "static/media/nft12.png": "./static/media/nft12.2e4144c4eb08609842d2.png",
+    "static/media/nft06.png": "./static/media/nft06.8ebb2c2699567038bffd.png",
+    "static/media/nft05.png": "./static/media/nft05.db4ce698f2efc6b664ee.png",
+    "static/media/nft04.png": "./static/media/nft04.a2b5994ea42793709ffa.png",
+    "static/media/nft13.png": "./static/media/nft13.10a1fe17296fe8818e1f.png",
+    "static/media/polkadot.png": "./static/media/polkadot.666edab785ab1832ef64.png",
+    "static/media/nft07.png": "./static/media/nft07.ef61e0ed588204439237.png",
     "index.html": "./index.html",
-    "main.c42ef52b.js.map": "./static/js/main.c42ef52b.js.map",
+    "main.c5a358a3.js.map": "./static/js/main.c5a358a3.js.map",
     "787.ba9ecbca.chunk.js.map": "./static/js/787.ba9ecbca.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c42ef52b.js"
+    "static/js/main.c5a358a3.js"
   ]
 }
