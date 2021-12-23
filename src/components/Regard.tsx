@@ -11,19 +11,21 @@ const Regard = (props: any) => {
           marginTop="40px"
           marginBottom="40px"
           width="100%"
+          minHeight="330px"
           backgroundColor="#000000"
-          height=""
           position="relative"
           justifyContent="center"
         >
           <Flex
             width="100%"
+            minHeight="330px"
             backgroundColor="#000000"
             position="relative"
           // zIndex={}
           >
             <Image
               width="100%"
+              minHeight="330px"
               src={regardBannerWeb}
               objectFit="cover"
               zIndex={0}

@@ -2,7 +2,7 @@
   "name": "react-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nftt-studio.github.io/nftmart-web/",
+  "homepage": "https://www.nftmart.io/",
   "dependencies": {
     "@chakra-ui/react": "^1.7.3",
     "@emotion/react": "^11",

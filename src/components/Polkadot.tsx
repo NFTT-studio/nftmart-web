@@ -12,19 +12,21 @@ const Polkadot = (props: any) => {
           marginTop="40px"
           marginBottom="10px"
           width="100%"
+          minHeight="330px"
           backgroundColor="#000000"
-          height=""
           position="relative"
           justifyContent="center"
         >
           <Flex
             width="100%"
+            minHeight="330px"
             backgroundColor="#000000"
             position="relative"
           // zIndex={}
           >
             <Image
               width="100%"
+              minHeight="330px"
               src={polkadotBannerWeb}
               objectFit="cover"
               zIndex={0}

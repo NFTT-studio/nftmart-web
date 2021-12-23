@@ -8,21 +8,24 @@ const ScanNftMart = (props: any) => {
     <Box>
       {isnarrow ? (
         <Flex
-          marginBottom="50px"
+          marginTop="40px"
+          marginBottom="10px"
           width="100%"
+          minHeight="330px"
           backgroundColor="#000000"
-          height=""
           position="relative"
           justifyContent="center"
         >
           <Flex
             width="100%"
+            minHeight="330px"
             backgroundColor="#000000"
             position="relative"
           // zIndex={}
           >
             <Image
               width="100%"
+              minHeight="330px"
               src={ScanBannerWeb}
               objectFit="cover"
               zIndex={0}
@@ -91,8 +94,8 @@ const ScanNftMart = (props: any) => {
         </Flex>
       ) : (
         <Flex
-          marginTop="40px"
-          marginBottom="10px"
+          marginTop="80px"
+          marginBottom="70px"
           width="100vw"
           backgroundColor="#000000"
           height=""
@@ -109,6 +112,7 @@ const ScanNftMart = (props: any) => {
             <Image
               width="100%"
               minHeight="660px"
+              maxHeight="750px"
               src={ScanBanner}
               objectFit="cover"
               zIndex={0}
