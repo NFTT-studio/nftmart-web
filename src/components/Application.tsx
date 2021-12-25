@@ -10,7 +10,7 @@ const Application = (props: any) => {
         <Flex
           marginTop="40px"
           marginBottom="10px"
-          width="100%"
+          width="100vw"
           backgroundColor="#000000"
           position="relative"
           justifyContent="center"

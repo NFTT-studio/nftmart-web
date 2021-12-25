@@ -10,7 +10,7 @@ const ScanNftMart = (props: any) => {
         <Flex
           marginTop="40px"
           marginBottom="10px"
-          width="100%"
+          width="100vw"
           minHeight="330px"
           backgroundColor="#000000"
           position="relative"

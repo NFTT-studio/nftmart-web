@@ -43,7 +43,7 @@ export const useWindowSize = () => {
   return windowSize;
 };
 const Banner = (props: any) => {
-  const { isnarrow } = props;
+  const { isnarrow, setGoto } = props;
   const [nftImgSlice, setNftImgSlice] = useState<{ id: string, icon: string, url: string }[]>();
   const windowsize = useWindowSize().width
   const nftImg = [

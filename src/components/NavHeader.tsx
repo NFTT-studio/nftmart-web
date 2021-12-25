@@ -31,7 +31,7 @@ const borderBottom = {
 };
 
 const NavHeader = (props: any) => {
-  const { isnarrow } = props;
+  const { isnarrow, setGoto } = props;
   const [opening, setOpening] = useState(false);
   const [routePath, setRoutePath] = useState("");
 
@@ -63,14 +63,19 @@ const NavHeader = (props: any) => {
               cursor="pointer"
               marginRight={isVertical ? '0x' : '1.6rem'}
               _hover={{ color: colors.primary }}
-              href={`#${item.title}`}
+              // href={`#${item.title}`}
               key={item.title}
               h={isVertical ? '80px' : ''}
               position="relative"
               onClick={
                 () => {
-                  setRoutePath(`#${item.title}`)
-                  setOpening(false)
+                  setGoto(false);
+                  // setRoutePath(`#${item.title}`)
+                  // setOpening(false)
+                  let anchorElement = document.getElementById(`${item.title}`)
+                  if (anchorElement) {
+                    anchorElement.scrollIntoView({ behavior: 'smooth' })
+                  }
                 }
               }
 
