@@ -57,7 +57,6 @@ function App() {
     refsArray && refsArray.map((item: any, index) => {
       if (Number(scrollTop) > Number(nowTop + (item.current.scrollHeight / 1000 * 520)) && Number(scrollTop) < Number(nowTop + (item.current.scrollHeight / 1000 * 630))) {
         if (refsArray && refsArray[index + 1]) {
-          console.log(scrollT, topValue)
           if (scrollT > topValue) {
             const scrollToHeight = nowTop + Number(refsArray ? refsArray[index]?.current?.scrollHeight : 0);
             setGotoScrollToHeight(scrollToHeight);
@@ -78,8 +77,6 @@ function App() {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   useEffect(() => {
-    console.log(gotoscrollToHeight);
-    console.log(goto);
     if (gotoscrollToHeight > 0 && goto) {
       scrollT = getScollTop();
       if (scrollT > topValue) {
@@ -121,7 +118,7 @@ function App() {
             <Box id="Artist invites" boxSizing="border-box" ref={sectionFiveRef} >
               <Application isnarrow={!!isnarrow} />
             </Box>
-            <Box id="Write paper" boxSizing="border-box" ref={sectionsixRef}>
+            <Box id="Writepaper" boxSizing="border-box" ref={sectionsixRef}>
               <Regard isnarrow={!!isnarrow} />
             </Box>
             <Box>

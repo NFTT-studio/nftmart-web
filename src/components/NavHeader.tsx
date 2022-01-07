@@ -45,7 +45,7 @@ const NavHeader = (props: any) => {
     { title: 'Explore', url: 'scan.nftmart.io' },
     { title: 'Blockchain', url: 'mainnet.nftmart.io' },
     { title: 'Artist invites', url: '' },
-    { title: 'Write paper', url: '' },
+    { title: 'Writepaper', url: '' },
   ];
 
   const LINKS_LIST = LINKS.map((item) => ({
@@ -171,9 +171,19 @@ const NavHeader = (props: any) => {
                     as="a"
                     cursor="pointer"
                     _hover={{ color: colors.primary }}
-                    href={`#${item.title}`}
+                    // href={`#${item.title}`}
                     key={item.title}
-                    onClick={() => setOpening(false)}
+                    onClick={
+                      () => {
+                        setOpening(false);
+                        // setRoutePath(`#${item.title}`)
+                        // setOpening(false)
+                        let anchorElement = document.getElementById(`${item.title}`)
+                        if (anchorElement) {
+                          anchorElement.scrollIntoView({ behavior: 'smooth' })
+                        }
+                      }
+                    }
                     borderBottom={index === 5 ? "" : "0.5px solid #4D4D4D"}
                     p="0 15px"
                     justifyContent="space-between"

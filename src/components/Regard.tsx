@@ -52,7 +52,7 @@ const Regard = (props: any) => {
                 textAlign="center"
               >
                 Regarding the token economic model and governance model of NFTMart,
-                there is a detailed introduction in the white paper. Through the white paper,
+                there is a detailed introduction in the whitepaper. Through the whitepaper,
                 you can better understand NFTMart.
               </Text>
               <Link
@@ -125,7 +125,7 @@ const Regard = (props: any) => {
                 textAlign="center"
               >
                 Regarding the token economic model and governance model of NFTMart,
-                there is a detailed introduction in the white paper. Through the white paper,
+                there is a detailed introduction in the whitepaper. Through the whitepaper,
                 you can better understand NFTMart.
               </Text>
               <Link
