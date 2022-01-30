@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.fe6ffcbb.js",
+    "main.js": "/static/js/main.cd1d1b29.js",
     "static/js/787.ba9ecbca.chunk.js": "/static/js/787.ba9ecbca.chunk.js",
     "static/media/polkadotBanner.jpg": "/static/media/polkadotBanner.4c6746a44602fc58a1ff.jpg",
     "static/media/regardBanner.jpg": "/static/media/regardBanner.77c46ce248c2b8c05a9a.jpg",
@@ -26,10 +26,10 @@
     "static/media/polkadot.png": "/static/media/polkadot.666edab785ab1832ef64.png",
     "static/media/nft07.png": "/static/media/nft07.ef61e0ed588204439237.png",
     "index.html": "/index.html",
-    "main.fe6ffcbb.js.map": "/static/js/main.fe6ffcbb.js.map",
+    "main.cd1d1b29.js.map": "/static/js/main.cd1d1b29.js.map",
     "787.ba9ecbca.chunk.js.map": "/static/js/787.ba9ecbca.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fe6ffcbb.js"
+    "static/js/main.cd1d1b29.js"
   ]
 }
