@@ -1,6 +1,6 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
-import regardBannerWeb from "../assets/images/regardBannerWeb.png";
-import regardBanner from "../assets/images/regardBanner.png";
+import regardBannerWeb from "../assets/images/regardBannerWeb.jpg";
+import regardBanner from "../assets/images/regardBanner.jpg";
 
 const Regard = (props: any) => {
   const { isnarrow } = props;

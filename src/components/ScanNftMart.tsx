@@ -1,6 +1,6 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
-import ScanBannerWeb from "../assets/images/ScanBannerWeb.png";
-import ScanBanner from "../assets/images/ScanBannerWeb.png";
+import ScanBannerWeb from "../assets/images/ScanBannerWeb.jpg";
+import ScanBanner from "../assets/images/ScanBannerWeb.jpg";
 
 const ScanNftMart = (props: any) => {
   const { isnarrow } = props;

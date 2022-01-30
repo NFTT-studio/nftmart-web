@@ -1,6 +1,6 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
 
-import applicationBanner from "../assets/images/applicationBanner.png";
+import applicationBanner from "../assets/images/applicationBanner.jpg";
 
 const Application = (props: any) => {
   const { isnarrow } = props;

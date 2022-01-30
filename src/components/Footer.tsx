@@ -12,7 +12,6 @@ import Medium from "../assets/images/Medium.png";
 import logo from "../assets/images/logo.png";
 
 const emailUrl = `${process.env.MAIL}`;
-console.log(emailUrl, 'email url');
 const ICONS = ['github', 'Telegram', 'twitter', 'Medium'];
 const links = [
   'https://github.com/NFTT-studio/',

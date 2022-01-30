@@ -1,6 +1,6 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
-import polkadotBannerWeb from "../assets/images/polkadotBannerWeb.png";
-import polkadotBanner from "../assets/images/polkadotBanner.png";
+import polkadotBannerWeb from "../assets/images/polkadotBannerWeb.jpg";
+import polkadotBanner from "../assets/images/polkadotBanner.jpg";
 import polkadot from "../assets/images/polkadot.png";
 
 const Polkadot = (props: any) => {

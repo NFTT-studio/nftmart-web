@@ -1,8 +1,8 @@
 import { Box, Image, Text, Flex, Link } from '@chakra-ui/react';
 
-import nmtBannerWeb from "../assets/images/nmtBannerWeb.png";
+import nmtBannerWeb from "../assets/images/nmtBannerWeb.jpg";
 import nmt from "../assets/images/nmt.png";
-import nmtBanner from "../assets/images/nmtBanner.png";
+import nmtBanner from "../assets/images/nmtBanner.jpg";
 
 const Nmt = (props: any) => {
   const { isnarrow } = props;

@@ -119,7 +119,6 @@ const Banner = (props: any) => {
     },
   ];
   useEffect(() => {
-    console.log(windowsize, nftImg.slice(0, 14));
     if (windowsize >= 1320) {
       setNftImgSlice(nftImg.slice(0, 14));
     } else if (windowsize >= 1138) {
@@ -139,7 +138,6 @@ const Banner = (props: any) => {
     } else if (windowsize < 740) {
       setNftImgSlice(nftImg.slice(0, 6));
     }
-    console.log(nftImgSlice);
   }, [windowsize]);
   return (
     <Box>
