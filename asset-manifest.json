@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.642933f4.js",
+    "main.js": "/static/js/main.73fd863c.js",
     "static/js/787.ba9ecbca.chunk.js": "/static/js/787.ba9ecbca.chunk.js",
-    "static/media/regardBanner.png": "/static/media/regardBanner.48c4296991851cd8032b.png",
-    "static/media/polkadotBanner.png": "/static/media/polkadotBanner.aa515625bc0988353007.png",
-    "static/media/nmtBanner.png": "/static/media/nmtBanner.1182bbf3a81c1b0e598a.png",
-    "static/media/applicationBanner.png": "/static/media/applicationBanner.91ef29040810cdcea160.png",
-    "static/media/polkadotBannerWeb.png": "/static/media/polkadotBannerWeb.bb66656bc95bdd35e229.png",
-    "static/media/regardBannerWeb.png": "/static/media/regardBannerWeb.f8ea79ef185205c76661.png",
-    "static/media/ScanBannerWeb.png": "/static/media/ScanBannerWeb.edde5c4dc38dc8f76d64.png",
-    "static/media/nmtBannerWeb.png": "/static/media/nmtBannerWeb.96fe5b29209a7f70c42b.png",
+    "static/media/polkadotBanner.jpg": "/static/media/polkadotBanner.4c6746a44602fc58a1ff.jpg",
+    "static/media/regardBanner.jpg": "/static/media/regardBanner.77c46ce248c2b8c05a9a.jpg",
+    "static/media/regardBannerWeb.jpg": "/static/media/regardBannerWeb.3d3464dd67d06ec3d04d.jpg",
+    "static/media/polkadotBannerWeb.jpg": "/static/media/polkadotBannerWeb.1dd58a37294259b946d0.jpg",
+    "static/media/nmtBanner.jpg": "/static/media/nmtBanner.ae79c36a40dc7ac2e8a1.jpg",
+    "static/media/applicationBanner.jpg": "/static/media/applicationBanner.c86fea3c0a2caa02e047.jpg",
+    "static/media/ScanBannerWeb.jpg": "/static/media/ScanBannerWeb.2099fac368425d3626bd.jpg",
+    "static/media/nmtBannerWeb.jpg": "/static/media/nmtBannerWeb.dff5094b51f2fedc30cf.jpg",
     "static/media/nft01.png": "/static/media/nft01.96430e362979b5e69045.png",
     "static/media/nft02.png": "/static/media/nft02.4f267a827e040e8ae7a7.png",
     "static/media/nft03.png": "/static/media/nft03.4ac6a49dd2a24f8c1dec.png",
@@ -26,10 +26,10 @@
     "static/media/polkadot.png": "/static/media/polkadot.666edab785ab1832ef64.png",
     "static/media/nft07.png": "/static/media/nft07.ef61e0ed588204439237.png",
     "index.html": "/index.html",
-    "main.642933f4.js.map": "/static/js/main.642933f4.js.map",
+    "main.73fd863c.js.map": "/static/js/main.73fd863c.js.map",
     "787.ba9ecbca.chunk.js.map": "/static/js/787.ba9ecbca.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.642933f4.js"
+    "static/js/main.73fd863c.js"
   ]
 }
