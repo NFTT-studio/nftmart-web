@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./static/js/main.bba76d49.js",
+    "main.js": "./static/js/main.384b389d.js",
     "static/js/787.ba9ecbca.chunk.js": "./static/js/787.ba9ecbca.chunk.js",
     "static/media/polkadotBanner.jpg": "./static/media/polkadotBanner.4c6746a44602fc58a1ff.jpg",
     "static/media/regardBanner.jpg": "./static/media/regardBanner.77c46ce248c2b8c05a9a.jpg",
@@ -8,7 +8,6 @@
     "static/media/polkadotBannerWeb.jpg": "./static/media/polkadotBannerWeb.1dd58a37294259b946d0.jpg",
     "static/media/nmtBanner.jpg": "./static/media/nmtBanner.ae79c36a40dc7ac2e8a1.jpg",
     "static/media/applicationBanner.jpg": "./static/media/applicationBanner.c86fea3c0a2caa02e047.jpg",
-    "static/media/ScanBannerWeb.jpg": "./static/media/ScanBannerWeb.2099fac368425d3626bd.jpg",
     "static/media/nmtBannerWeb.jpg": "./static/media/nmtBannerWeb.dff5094b51f2fedc30cf.jpg",
     "static/media/nft01.png": "./static/media/nft01.96430e362979b5e69045.png",
     "static/media/nft02.png": "./static/media/nft02.4f267a827e040e8ae7a7.png",
@@ -26,10 +25,10 @@
     "static/media/polkadot.png": "./static/media/polkadot.666edab785ab1832ef64.png",
     "static/media/nft07.png": "./static/media/nft07.ef61e0ed588204439237.png",
     "index.html": "./index.html",
-    "main.bba76d49.js.map": "./static/js/main.bba76d49.js.map",
+    "main.384b389d.js.map": "./static/js/main.384b389d.js.map",
     "787.ba9ecbca.chunk.js.map": "./static/js/787.ba9ecbca.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bba76d49.js"
+    "static/js/main.384b389d.js"
   ]
 }
